@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'kmshico';
+  src:  url('../fonts/kmshico.eot?5kf9s2');
+  src:  url('../fonts/kmshico.eot?5kf9s2#iefix') format('embedded-opentype'),
+    url('../fonts/kmshico.ttf?5kf9s2') format('truetype'),
+    url('../fonts/kmshico.woff?5kf9s2') format('woff'),
+    url('../fonts/kmshico.svg?5kf9s2#kmshico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, 
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kmshico' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrow:before {
+  content: "\e900";
+  color: #f2552f;
+}
+._icon-KMSH:before {
+  content: "\e901";
+  color: #eb5e3c;
+}
+._icon-mail-fill:before {
+  content: "\e902";
+}
+._icon-mail:before {
+  content: "\e903";
+  color: #bfbfbf;
+}
+._icon-message-fill:before {
+  content: "\e904";
+}
+._icon-message:before {
+  content: "\e905";
+  color: #bfbfbf;
+}
+._icon-message2:before {
+  content: "\e906";
+  color: #bfbfbf;
+}
+._icon-telegram-fill:before {
+  content: "\e907";
+}
+._icon-telegram:before {
+  content: "\e908";
+  color: #bfbfbf;
+}
+._icon-user:before {
+  content: "\e909";
+  color: #bfbfbf;
+}
+._icon-vk-fill:before {
+  content: "\e90a";
+}
+._icon-vk:before {
+  content: "\e90b";
+  color: #bfbfbf;
+}
+._icon-youtube-fill:before {
+  content: "\e90c";
+}
+._icon-youtube:before {
+  content: "\e90d";
+  color: #bfbfbf;
+}

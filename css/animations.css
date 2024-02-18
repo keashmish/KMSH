@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.anim.right-header {
+      transform: translateX(20%);
+      transition: all .8s;
+      opacity: 0;
+}
+
+.anim.right-header.active {
+      transform: translateX(0);
+      opacity: 1;
+}
+
+
+
+
+
+
+.anim.right-header-low {
+      transform: translateY(20%);
+      transition: all 1.2s;
+      opacity: 0;
+}
+
+.anim.right-header-low.active {
+      transform: translateY(0);
+      opacity: 1;
+}
+
+
+.anim.right-header-low-low {
+      transform: translateX(-20%);
+      transition: all 1.6s;
+      opacity: 0;
+}
+
+.anim.right-header-low-low.active {
+      transform: translateX(0);
+      opacity: 1;
+}
+
+
+
+
+
+
+.anim.left-header {
+      transform: translateX(-20%);
+      transition: all .6s;
+      opacity: 0;
+}
+
+.anim.left-header.active {
+      transform: translateX(0);
+      opacity: 1;
+}
+
+.anim.left-header-low {
+      transform: translateX(20%);
+      transition: all 1.6s;
+      opacity: 0;
+}
+
+.anim.left-header-low.active {
+      transform: translateX(0);
+      opacity: 1;
+}
+
+
+
+
+
+
+
+.anim.up-header {
+      transform: translateY(20%);
+      transition: all .9s;
+      opacity: 0;
+}
+
+.anim.up-header.active {
+      transform: translateY(0);
+      opacity: 1;
+}
+
+
+.anim.up-header-low {
+      transform: translateY(20%);
+      transition: all 1.6s;
+      opacity: 0;
+}
+
+.anim.up-header-low.active {
+      transform: translateY(0);
+      opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.anim.fade-header {
+      transition: all 1.5s;
+      opacity: 0;
+}
+
+.anim.fade-header.active {
+      opacity: 1;
+}
+
+
