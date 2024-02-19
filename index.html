@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <meta name="description" content="Интерфейсы KMSH для игры Perfect World">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/iconsfont.css" type="text/css">
     <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="icon" type="image/png" href="img/favicon.png">
     <title>KMSH</title>
@@ -117,12 +119,47 @@
                 <img src="img/slider-arrow.svg" alt="" style="transform: scale(-1, 1)">
                 MY WORKS
                 <img src="img/slider-arrow.svg" alt="">
+            </div>  
+
+
+            <div class="gallery anim up-header">
+                <div class="gallery-container">
+                    <img src="img/int-one.png" alt="" class="gallery-item gallery-item-1" data-index="1">
+                    <img src="img/int-two.png" alt="" class="gallery-item gallery-item-2" data-index="2">
+                    <img src="img/int-three.png" alt="" class="gallery-item gallery-item-3" data-index="3">
+                    <img src="img/int-four.png" alt="" class="gallery-item gallery-item-4" data-index="4">
+                    <img src="img/int-four.png" alt="" class="gallery-item gallery-item-5" data-index="5">
+                </div>
+                <!-- <div class="gallery-controls"></div> -->
             </div>
-            <div class="main-gallery anim up-header">
+
+            
+            <!-- Swiper -->
+<!-- 
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/int-one.png" alt="" class="image-gallery">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/int-two.png" alt="" class="image-gallery">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/int-three.png" alt="" class="image-gallery">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/int-four.png" alt="" class="image-gallery">
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div> -->
+
+
+            <!-- <div class="main-gallery anim up-header">
                 <img src="img/test1.jpg" alt="" width="1003px" height="600px" class="image-gallery">
                 <img src="img/test.jpg" alt="" width="1200px" height="718px" class="image-gallery">
                 <img src="img/test2.jpg" alt="" width="1003px" height="600px" class="image-gallery">
-        </div>
+        </div> -->
         <div class="main-gallery__first-interface anim up-header">
             KMSH V 1.0
             <span>
@@ -443,6 +480,7 @@
         </div>
     </footer>
 
-    <script src="scripts/kmsh_main.js"></script>
+    <script defer src="scripts/kmsh_main.js"></script>
+    <script defer src="scripts/swiper.js"></script>
 </body>
 </html>
