@@ -51,9 +51,7 @@
 }
 
 
-html {
-      overflow-x:hidden;
-}
+
 
 
 body {
@@ -63,7 +61,7 @@ body {
       line-height: 24px;
       color: #FFF; 
       background: #202123;
-      overflow-x:hidden;
+
 }
 
 
@@ -451,7 +449,7 @@ body {
 /*Glass container*/
 .intro-back {
       width: 100%;
-      background-image: url(../img/back.png);
+      background-image: url(../img/first-video.mp4);
 }
 
 
@@ -629,15 +627,15 @@ body {
       display: flex;
       align-items: center;
       border: 2px solid transparent;
-      border-image: linear-gradient(120deg, rgba(33, 33, 33, .3) 32%, rgba(102, 159, 158, 1)100%);
-      -webkit-border-image: -webkit-linear-gradient(120deg, rgba(33, 33, 33, .3) 32%, rgba(102, 159, 158, 1)100%);
+      border-image: linear-gradient(190deg, rgba(33, 33, 33, .3) 32%, rgba(102, 159, 158, 1)100%);
+      -webkit-border-image: -webkit-linear-gradient(190deg, rgba(33, 33, 33, .3) 32%, rgba(102, 159, 158, 1)100%);
       border-image-slice: 1; 
       border-right: none;
       height: 674px;
       position: absolute;
-      width: 130%;
+      width: 80%;
       left: 43%;
-      background: linear-gradient(-20deg, rgba(33, 33, 33, 0) 32%, rgba(102, 159, 158, .1)100%);
+      background: linear-gradient(-20deg, rgba(33, 33, 33, 0) 62%, rgba(102, 159, 158, .1)100%);
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
 }
@@ -717,15 +715,15 @@ body {
       align-items: center;
       justify-content: flex-end;
       border: 2px solid transparent;
-      border-image: linear-gradient(60deg, rgba(33, 33, 33, .3) 32%, rgba(173, 98, 81, 1)100%);
-      -webkit-border-image: -webkit-linear-gradient(60deg, rgba(33, 33, 33, .3) 32%, rgba(173, 98, 81, 1)100%);
+      border-image: linear-gradient(20deg, rgba(33, 33, 33, .3) 32%, rgba(173, 98, 81, 1)100%);
+      -webkit-border-image: -webkit-linear-gradient(20deg, rgba(33, 33, 33, .3) 32%, rgba(173, 98, 81, 1)100%);
       border-image-slice: 1; 
       border-left: none;
       height: 674px;
       position: absolute;
-      width: 130%;
+      width: 80%;
       right: 43%;
-      background: linear-gradient(40deg, rgba(33, 33, 33, 0) 32%, rgba(207, 133, 116, .1)100%);
+      background: linear-gradient(40deg, rgba(33, 33, 33, 0) 62%, rgba(207, 133, 116, .1)100%);
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
 }
@@ -825,13 +823,17 @@ body {
 }
 
 
-.main-order-first__info::after {
+.main-order {
+      position: relative;
+}
+
+.main-order::before {
       content: '';
       position: absolute;
       border-bottom: 2px solid #828282;
       bottom: 0;
-      left:0;
-      right: -100%;
+      left:26.3rem;
+      right: 0;
 }
 
 
