@@ -451,13 +451,13 @@ body {
 /*Glass container*/
 .intro-back {
       width: 100%;
-      background-image: url(../img/back.png);
+      background-image: url(../img/first-video.mp4);
 }
 
 
 .intro-blur {
-      backdrop-filter: blur(11px);
-      -webkit-backdrop-filter: blur(11px);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(6px);
 }
 
 
@@ -707,7 +707,7 @@ body {
       line-height: 82px;
       text-transform:uppercase;
       color: #EB5E3C;
-      padding-bottom: 16px;
+      padding-bottom: 64px;
 }
 
 
