@@ -84,15 +84,19 @@ let options = {
 // Функция обратного вызова
 let callback = function(entries, observer) {
   entries.forEach(entry => {
+    //Если элемент является наблюдением
     if (entry.isIntersecting) {
       console.log('find', entry);
+      //Добавляем класс active к нему
       entry.target.classList.add('active');
-      //отписываемся от наблюдателя
+      //отписываемся от наблюдателя, что бы анимация не циклилась
       observer.unobserve(entry.target);
     }
   });
 }
 
+
+//наблюдатель
 let observer = new IntersectionObserver(callback, options);
 
 //определяем элементы, за которыми наблюдаем
@@ -100,3 +104,4 @@ let targets = document.querySelectorAll('.anim')
 targets.forEach(target => {
   observer.observe(target);
 });
+
