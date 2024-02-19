@@ -69,8 +69,8 @@ body {
 
 /* White link */
 .mainlink {
-      text-decoration: none; /*убрать подчеркивание ссылок*/
-      transition: .3s ease; /*плавность ховера*/
+      text-decoration: none; 
+      transition: .3s ease; 
 }
 
 
@@ -86,14 +86,14 @@ body {
 
 .mainlink:hover {
       color: #EB5E3C;
-      transition: .3s ease; /*плавность ховера*/
+      transition: .3s ease; 
 }
 
 
 /* Black */
 .mainlink-black {
-      text-decoration: none; /*убрать подчеркивание ссылок*/
-      transition: .3s ease; /*плавность ховера*/
+      text-decoration: none;
+      transition: .3s ease;
       color: #232323;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .mainlink-black:hover {
       color: #872108;
-      transition: .3s ease; /*плавность ховера*/
+      transition: .3s ease;
 }
 
 
@@ -120,8 +120,8 @@ body {
 
 /* Orange link */
 .orange-link {
-      transition: .3s ease; /*плавность ховера*/
-      text-decoration: none; /*убрать подчеркивание ссылок*/
+      transition: .3s ease;
+      text-decoration: none;
 }
 
 
@@ -137,7 +137,7 @@ body {
 
 .orange-link:hover {
       color: #EB5E3C;
-      transition: .3s ease; /*плавность ховера*/
+      transition: .3s ease;
       text-decoration: underline;
       cursor: pointer;
 }
@@ -192,7 +192,7 @@ body {
       padding: 8px 0;
       font-size: 14px;
       width: 100%;
-      margin: 0 auto; /*выровнять по центру*/
+      margin: 0 auto; 
       max-width: 1200px;
 }
 
@@ -232,8 +232,8 @@ body {
       color: #FAFAFA;
       background-color: #EB5E3C;
       border: none;
-      transition: all .3s ease; /*плавность ховера*/
-      cursor: pointer; /*анимация с пальцем*/
+      transition: all .3s ease; 
+      cursor: pointer; 
 }
 
 
@@ -259,8 +259,8 @@ body {
       color: #EB5E3C;
       box-shadow: inset 0 0 0 3px #EB5E3C;
       border: none;
-      transition: all .3s ease; /*плавность ховера*/
-      cursor: pointer; /*анимация с пальцем*/
+      transition: all .3s ease;
+      cursor: pointer; 
 }
 
 
@@ -465,7 +465,7 @@ body {
 .intro {
       display: flex;
       flex-direction: column;
-      margin:0 auto; /*выровнять по центру*/
+      margin:0 auto; 
       max-width:1200px;
       padding: 32rem 0 9rem;
 }
@@ -613,7 +613,7 @@ body {
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin:0 auto 220px; /*выровнять по центру*/
+      margin:0 auto 220px;
       max-width:1200px;
       position: relative;
 }
@@ -674,7 +674,7 @@ body {
       flex-direction: row;
       align-items: center;
       justify-content: flex-end;
-      margin:0 auto 295px; /*выровнять по центру*/
+      margin:0 auto 295px; 
       max-width:1200px;
       position: relative;
 }
@@ -742,7 +742,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin:0 auto; /*выровнять по центру*/
+      margin:0 auto; 
       max-width:1200px;
       padding: 13rem 0 80px;
       font-size: 103px;
@@ -815,7 +815,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin:0 auto; /*выровнять по центру*/
+      margin:0 auto; 
       max-width:1200px;
       padding-bottom: 13rem;
       font-size: 114px;
@@ -865,7 +865,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      margin:0 auto; /*выровнять по центру*/
+      margin:0 auto; 
       max-width:1200px;
       padding-bottom: 22rem;
       font-size: 114px;
