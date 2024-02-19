@@ -635,7 +635,7 @@ body {
       border-right: none;
       height: 674px;
       position: absolute;
-      width: 100%;
+      width: 130%;
       left: 43%;
       background: linear-gradient(-20deg, rgba(33, 33, 33, 0) 32%, rgba(102, 159, 158, .1)100%);
       backdrop-filter: blur(4px);
@@ -723,7 +723,7 @@ body {
       border-left: none;
       height: 674px;
       position: absolute;
-      width: 100%;
+      width: 130%;
       right: 43%;
       background: linear-gradient(40deg, rgba(33, 33, 33, 0) 32%, rgba(207, 133, 116, .1)100%);
       backdrop-filter: blur(4px);
