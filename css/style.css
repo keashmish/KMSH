@@ -50,6 +50,8 @@
       box-sizing: border-box;
 }
 
+/* * {
+      border: 1px solid #f00; } */
 
 
 
@@ -449,7 +451,7 @@ body {
 /*Glass container*/
 .intro-back {
       width: 100%;
-      background-image: url(../img/first-video.mp4);
+      background-image: url(../img/back.png);
 }
 
 
@@ -1023,3 +1025,7 @@ body {
       display: flex;
       gap: 16px;
 }
+
+
+
+
